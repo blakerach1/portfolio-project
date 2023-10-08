@@ -9,6 +9,7 @@
 
 header {
     background-color: var(--salmon);
+    height: 100vh;
 }
 
 li {
@@ -21,6 +22,7 @@ a {
 }
 
 .navbar {
+    background-color: var(--silver-sand);
     min-height: 70px;
     display: flex;
     justify-content: space-between;
@@ -98,5 +100,7 @@ a {
 
     .nav-menu.active {
         left: 0;
+        background-color: var(--silver-sand);
+        border: 2px solid var(--dusty-gray);
     }
 }
