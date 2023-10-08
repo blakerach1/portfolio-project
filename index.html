@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="general-styles.css">
     <link rel="stylesheet" href="header-styles.css">
     <link rel="stylesheet" href="about-styles.css">
+    <link rel="stylesheet" href="project-styles.css">
+    <link rel="stylesheet" href="contact-styles.css">
+    <link rel="stylesheet" href="footer-styles.css">
 
 </head>
 
@@ -45,7 +48,7 @@
         <div class="skill-cards">
             <div class="card-container">
                 <div class="individual-card">
-                    <img class="html-logo" src="icons/html-icon.svg" alt="HTML icon">
+                    <img src="icons/html-icon.svg" alt="HTML icon">
                     <h4>HMTL</h4>
                     <p>Beginner level of HTML</p>
                 </div>
@@ -101,7 +104,68 @@
 
     </section>
 
-    <script src="script.js"></script>
+    <!-- Projects -->
+
+    <section class="projects-section">
+        <h2>PROJECTS</h2>
+        <div class="project-boxes">
+
+            <div class="project-box">
+                <img class="html-logo" src="icons/html-icon.svg" alt="">
+                <h3></h3>
+                <p></p>
+            </div>
+            <div class="project-box">
+                <img src="icons/css-icon.svg" alt="">
+                <h3></h3>
+                <p></p>
+            </div>
+            <div class="project-box">
+                <img src="icons/js-icon.svg" alt="">
+                <h3></h3>
+                <p></p>
+            </div>
+            <div class="project-box">
+                <img src="icons/python-icon.svg" alt="">
+                <h3></h3>
+                <p></p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="contact-section">
+        <div class="contact-container">
+            <h2>CONTACT</h2>
+            <p>Have a question or want to work together?</p>
+            <form class="contact-form">
+                <input id="name-box" placeholder="Name" type="text" name="name" required>
+                <input id="email-box" placeholder="Enter email" type="text" name="email" required>
+                <textarea id="text-box" placeholder="Your Message" rows="15"></textarea>
+                <div id="submit-success">Your message was sent successfully. Thanks!</div>
+                <button id="submit-button">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="double-arrow">
+            <a href="#"><img src="icons/double-arrow.svg"></a>
+        </div>
+        <div class="icon-container">
+            <a href=""><img src="images/linkedin-logo.png"></a>
+            <a href=""><img src="images/github-logo.png"></a>
+            <a href=""><img src="images/instagram-logo.png"></a>
+        </div>
+        <div class="footnote">
+            <p>RACHEL BLAKE <span class="highlight">&copy; 2023</span></p>
+        </div>
+    </footer>
+
+
+
+    <script src=" script.js"></script>
 
 </body>
 

@@ -1,5 +1,6 @@
 .about-section {
     width: 100%;
+    padding: var(--padding);
     display: flex;
     flex-direction: column;
     border: 1px solid black;
@@ -11,7 +12,7 @@
     width: 100%;
     justify-content: space-around;
     border: 1px solid black;
-    margin-bottom: 35px;
+    margin: 35px;
 }
 
 .card-container {
@@ -34,7 +35,7 @@
     background-color: var(--salmon);
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: var(--padding);
 }
 
 .profile img {

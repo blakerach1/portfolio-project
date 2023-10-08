@@ -1,0 +1,35 @@
+.projects-section {
+    width: 100%;
+    padding: var(--padding);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: center;
+}
+
+.project-boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--salmon);
+    margin: 35px;
+
+}
+
+.project-box {
+    padding: var(--padding);
+    border: 2px solid black;
+}
+
+.project-box img {
+    width: 250px;
+}
+
+
+@media(min-width:768px) {
+    .project-boxes {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}

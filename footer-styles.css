@@ -1,0 +1,40 @@
+footer {
+    border: 2px solid green;
+    display: block;
+    padding: var(--padding);
+}
+
+.double-arrow img {
+    width: 50px;
+    background-color: pink;
+    margin: 0 auto;
+    margin-top: -50px;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+.icon-container {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    padding: var(--padding);
+
+}
+
+.icon-container img {
+    width: 50px;
+    margin: 0 var(--margin);
+}
+
+.footnote {
+    text-align: center;
+    font-size: 0.8rem;
+    opacity: 0.6;
+    margin-top: var(--margin);
+
+}
+
+.highlight {
+    color: pink;
+}
